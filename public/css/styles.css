@@ -1,0 +1,22 @@
+scroller-test{
+    width:100px; 
+    height:115px; 
+    overflow: scroll;
+}
+img-izq
+{
+    float: initial;
+    position: static;
+}
+h3{
+   color: rgb(255, 255, 255);
+}
+#formulario
+{
+    position:absolute;
+    left:56px;
+    top:26px;
+    width:319px;
+    height:129px;
+    z-index:1;
+}

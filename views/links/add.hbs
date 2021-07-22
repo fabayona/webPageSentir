@@ -1,0 +1,193 @@
+<!--Elementos de estilo para agregar en css-->
+<style>
+    h3,
+    h4,
+    p,
+    label {
+        color: rgb(255, 255, 255);
+    }
+
+    #elementos {
+        padding-left: 3%;
+        padding-top: 3%;
+    }
+
+    #h2 {
+        color: rgb(19, 62, 105);
+    }
+
+    #h4 {
+        color: rgb(19, 62, 105);
+    }
+
+    .card {
+        border-color: rgb(19, 62, 105);
+    }
+
+    #margen {
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+
+    }
+</style>
+<div id="elementos">
+    <div class="row justify-content-start">
+        <div class="col-5.5">
+
+            <img class="img-izq" src="/img/ProgramaSentir.JPG" width="660" height="570">
+
+        </div>
+        <div class="col-6">
+            <div class="card" style="background-color:rgb(19, 62, 105);width: auto; height:570px; overflow: scroll;">
+                <form style="background-color:rgb(19, 62, 105);" id="margen">
+                    <h3>Estimado(a) usuario(a):</h3>
+                    <p>A partir de este momento, eres parte del programa Sentir, nuestro
+                        acompañamiento preferencial para el manejo de los desórdenes ansiosodepresivos. Esta
+                        cartilla
+                        reúne
+                        tus datos personales y de salud, por
+                        lo cual te solicitamos cuidarla y que la manejes con total sinceridad</p>
+                    <h4>Datos de identificación</h4>
+                    <div class="form-row">
+
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail4">Nombres y apellidos</label>
+                            <input type="text" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputPassword4">Documento de identidad</label>
+                            <input type="number" class="form-control" id="inputPassword4">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress">Dirección residencial</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputCity">Me diagnosticaron ansiedad-depresión en el año</label>
+                        <input type="number" class="form-control" id="inputCity">
+                    </div>
+                    <div class="form-row">
+
+                        <div class="form-group col-md-6">
+                            <label for="inputnombrefamiliar">Nombre de familiar o allegado</label>
+                            <input type="text" class="form-control" id="inputnombrefamiliar">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputZip">Teléfono de familiar o allegado</label>
+                            <input type="number" class="form-control" id="inputZip">
+                        </div>
+                    </div>
+                    <h4>Datos de los profesionales tratantes</h4>
+                    <p>Si no tiene más de un profesional tratante, deje los espacios en blanco</p>
+                    <div class="form-row">
+
+
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail4">Nombres y apellidos</label>
+                            <input type="text" class="form-control" id="inputEmail4" placeholder="Profesional #1">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputPassword4">Tel consultorio</label>
+                            <input type="number" class="form-control" id="inputPassword4">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress">Celular</label>
+                        <input type="number" class="form-control" id="inputAddress" placeholder="Ejemplo: 3002095600">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail4">Nombres y apellidos</label>
+                            <input type="text" class="form-control" id="inputEmail4" placeholder="Profesional #2">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputPassword4">Tel consultorio</label>
+                            <input type="number" class="form-control" id="inputPassword4">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress">Celular</label>
+                        <input type="number" class="form-control" id="inputAddress" placeholder="Ejemplo: 3002095600">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail4">Nombres y apellidos</label>
+                            <input type="text" class="form-control" id="inputEmail4" placeholder="Profesional #3">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputPassword4">Tel consultorio</label>
+                            <input type="number" class="form-control" id="inputPassword4">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress">Celular</label>
+                        <input type="number" class="form-control" id="inputAddress" placeholder="Ejemplo: 3002095600">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Guardar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-body">
+        <div class="card">
+            <div id="margen">
+                <h2 id="h2">Acuerdo de colaboración entre paciente y equipo de salud</h2>
+                <a id="h4">Objetivos de tratamiento</a>
+                <ol>
+                    <li>Disminuir y controlar los síntomas depresivos y ansiosos, en un nivel
+                        que promueva la calidad de vida, la estabilidad emocional y un adecuado
+                        funcionamiento en las diferentes áreas de ajuste (familiar, social, pareja,
+                        trabajo, entre otras)</li>
+                    <li>Proporcionar y fortalecer estrategias de relajación y regulación emocional
+                        efectivas para el manejo de los síntomas ansioso-depresivos.</li>
+                    <li>Proporcionar estrategias de autocuidado y activación conductual que
+                        promuevan un repertorio de afrontamiento más flexible frente a los
+                        problemas de la vida cotidiana y prevengan la presentación de crisis
+                        afectivas.</li>
+                    <li>Entrenar habilidades sociales para fortalecer las redes de apoyo de los
+                        usuarios y ampliar sus recursos interactivos y de comunicación interpersonal.</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-body">
+        <div class="card">
+            <div id="margen">
+                <h2 id="h2">Compromiso del paciente</h2>
+                <ol>
+                    <li>Asistir con regularidad y puntualmente a las sesiones.</li>
+                    <li>Seguir las recomendaciones brindadas por los profesionales tratantes.</li>
+                    <li>Seguir el tratamiento farmacológico de acuerdo con las indicaciones dadas.</li>
+                    <li>Si se presentan dudas, resolverlas con el equipo médico directamente.
+                        Reportar cambios abruptos en el estado de ánimo que puedan sugerir un
+                        riesgo o amenaza para el bienestar</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    
+    <div class="card-body">
+        <div class="card">
+            <div id="margen">
+                <h2 id="h2">Compromiso del equipo de salud</h2>
+                <ol>
+                    <li>Proteger su identidad. Toda la información que se conozca a través de este
+                        proceso será de carácter confidencial y estará completamente protegida bajo
+                        el secreto profesional; salvo en los casos en los que se identifique un riesgo
+                        para su integridado la de otros</li>
+                    <li>Propiciar intervenciones personalizadas que se ajusten especialmente a sus
+                        posibilidades y necesidades. </li>
+                    <li>Utilizar únicamente intervenciones basadas en la evidencia científica</li>
+                    <li>Realizar ajustes oportunos al plan de intervención cuando a pesar de su
+                        adherencia y el compromiso, se evidencien dificultades en el alcance de los
+                        resultados pretendidos</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
